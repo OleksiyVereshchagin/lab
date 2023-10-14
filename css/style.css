@@ -1,0 +1,90 @@
+body {
+    background-color: #f0f0f0; /* Колір фону */
+    font-family: Arial, sans-serif; /* Шрифт тексту */
+     /* Вирівнювання тексту по центру */
+    margin: 0; /* Встановлення нульових зовнішніх відступів */
+    padding: 0; /* Встановлення нульових внутрішніх відступів */
+}
+
+header {
+    text-align: left;
+    background-color: LightSteelBlue; /* Колір фону заголовка */
+    padding-top: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 48px;
+}
+
+.first-string{
+    margin: 0;
+    padding-bottom: 40px;
+}
+
+.first-string h2{
+    text-align: left;
+    float: left;
+}
+
+.first-string a{
+    text-align: right;
+    color: black;
+}
+
+
+.header-content h1,.header-content p{
+    text-align: left;
+    margin: 0;
+}
+
+
+nav {
+    background-color: #C0C0C0; /* Колір фону навігації */
+    color: #fff; /* Колір тексту навігації */
+    min-height: 60px;
+    padding: 0px;
+    text-align: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block; /* Робимо блоковий елемент подібним до інлайн-елементу */
+    margin-right: 10px;
+    list-style-type: none;
+}
+
+a{
+    display: block;
+    color: black;
+    line-height: 4em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: white;
+    background-color: #808080;
+}
+
+main{
+    padding: 20px 400px;
+}
+
+main h2{
+    text-align: center;
+}
+
+section {
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+footer {
+    text-align: center;
+    background-color: #C0C0C0; /* Колір фону підвалу */
+    padding: 10px;
+}
